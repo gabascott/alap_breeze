@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;
+}
+/*GRID*/
+main{
+    /*display:grid;*/
+}
+
+/*GRID*/
+
+
+main{
+    width:80%;
+    max-width:1200px;
+    margin:auto;
+    padding:10px 0 0 0;
+    border:1px solid black;
+}
+
+header{
+    text-align:center;
+}
+
+#ajanlatokFejlec{
+    display:flex;
+    justify-content:space-around;
+}
+#ingatlan{
+    display:flex;
+    justify-content:space-around;
+    border-top:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+}
+
+section{
+    width:300px;
+    margin:auto;
+}
